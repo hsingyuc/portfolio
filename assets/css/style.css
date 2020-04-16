@@ -233,7 +233,13 @@ a {
 .project-img {
     display: flex;
     flex-direction: column;
-    margin-top: auto;
+    margin-top: 40px;
+}
+.project-img img {
+    height: auto;
+    max-width: 70%;
+    margin-left: auto;
+    transform: translate(35px, 20px);
 }
 
 /* bottom */
