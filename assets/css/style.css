@@ -159,7 +159,7 @@ a {
     display: flex;
     align-items: center;
     background-size: contain;
-    background-image: url('../images/me.png');
+    background-image: url('../images/me.jpg');
     background-repeat: no-repeat;
     background-position: center right;
 }
