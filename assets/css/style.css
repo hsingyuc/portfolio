@@ -68,20 +68,12 @@ a {
     width: 30px;
     height: 30px;
 }
-@media ( max-width: 768px ) {
-    .navbar-menu {
-        flex-direction: column;
-    }
-}
+
 .navbar-btn {
     padding: 20px;
     text-decoration: none;
 }
-@media (max-width: 768px) {
-    .navbar-btn {
-        margin-bottom:-12px
-        }
-}
+
 .navbar-btn a {
     text-decoration: none;
     color: black;
@@ -134,11 +126,7 @@ a {
 .page-header h2 {
     margin-bottom: 0;
 }
-@media ( max-width: 768px ) {
-    #intro-section {
-        padding: 150px 0;
-    }
-}
+
 #intro-section .container {
     display: flex;
 }
@@ -189,11 +177,7 @@ a {
     margin-left: auto;
     flex-grow: 1;
 }
-@media ( max-width: 768px ) {
-    .projects {
-        flex-direction: column;
-    }
-}
+
 .project {
     background: #f6f9f9;
     display: flex;  
@@ -306,7 +290,7 @@ a {
     flex-direction: column;
     align-items: center;
 }
-/* When hover contact-bar-item affect svg */
+/* contact-bar-item */
 .contact-bar-item:hover svg {
     transform: scale(1.7);
     opacity: 1;
@@ -321,8 +305,57 @@ a {
 .contact-bar-item svg path {
     fill: rgb(116, 135, 129);
 }
+
+
 @media ( max-width: 768px ) {
-    .contact-bar {
+    .navbar {
+        padding-right: 3px;
+        padding-left: 30px;
+    }
+
+    .navbar-menu {
         flex-direction: column;
+    }
+
+    .navbar-btn {
+        margin-bottom:-12px
+    }
+
+    /* intro */
+    #intro-section {
+        padding: 150px 0;
+    }
+
+    /* about */
+    .skills {
+        flex-direction: column;
+        display: flex;
+    }
+
+    /* projects */
+    .projects-section .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects {
+        display: block;
+    }
+
+
+    /* contact-bar-item */
+    .contact-bg {
+        width: 400px;
+        height: 400px;
+    }
+
+    #contact-section .container h2 {
+        margin-top: 0px;
+        line-height: 1.5;
+        margin-bottom: 0px;
+    }
+
+    .contact-bar-item {
+        margin: 10px;
     }
 }
