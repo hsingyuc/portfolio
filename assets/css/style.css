@@ -190,6 +190,18 @@ a {
     padding: 40px 0 40px 25px;
 }
 
+.project-link {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.project-link svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
 .project-app:hover {
     background:rgb(235, 246, 235);
 }
@@ -212,6 +224,7 @@ a {
     font-weight: 400;
     margin: 0px;
     margin-top: 20px;
+    margin-bottom: 4px;
 }
 .project-info p {
     margin: 0px;
@@ -344,7 +357,6 @@ a {
     .projects {
         display: block;
     }
-
 
     /* contact */
     .contact-bg {
