@@ -28,7 +28,6 @@ body {
     padding-left: 40px;
     position: relative;
     z-index: 2;
-    display: flex;
 }
 h1 {
     font-family: 'Lora', serif;
@@ -170,6 +169,11 @@ a {
     padding-top: 35px;
     padding-bottom: 50px;
 }
+
+.projects-wrapper {
+    display: flex;
+}
+
 .projects-header {
     color: #84839b;
     margin-right: 40px;
