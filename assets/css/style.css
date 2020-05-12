@@ -38,7 +38,7 @@ h2 {
     font-size: 2em;
     font-weight: 300;
     color: #585858;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 .text-center {
     text-align: center;
@@ -298,7 +298,7 @@ a {
     z-index: 0;
 }
 .contact-section h2 {
-    margin-top: 145px;
+    margin-top: 115px;
 }
 .contact-bar {
     display: flex;
@@ -332,7 +332,7 @@ a {
 }
 
 
-@media ( max-width: 768px ) {
+@media ( max-width: 769px ) {
     .navbar {
         padding-right: 3px;
         padding-left: 30px;
@@ -374,12 +374,28 @@ a {
     }
 
     #contact-section .container h2 {
-        margin-top: 0px;
-        line-height: 1.5;
-        margin-bottom: 0px;
+        margin-top: 150px;
     }
 
     .contact-bar-item {
         margin: 10px;
+    }
+}
+
+@media ( max-width: 615px ) {
+    /* contact */
+    #contact-section .container h2 {
+        margin-top: 115px;
+    }
+}
+
+@media ( max-width: 450px ) {
+    /* contact */
+    .contact-bar {
+        flex-direction: column;
+    }
+
+    .contact-bar-item {
+        margin: 40px;
     }
 }
