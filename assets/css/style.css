@@ -387,3 +387,9 @@ a {
         margin: 25px;
     }
 }
+
+@media ( max-width: 600px ) {
+    .projects-wrapper {
+        display: block;
+    }
+}
